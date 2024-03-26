@@ -1,0 +1,137 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+  MAIN COLOR : #087f5b  
+  GREY COLOR : #343a40
+*/
+
+1 - font bold and size:
+	normal text : 16 - 32 px
+	Long text : 20px or ever bigger
+	Headline : 50px +, bold 600+
+	any text: dont use font-weight under 400(regular)
+
+2 - use less than 75 characters per line.
+
+3 - normal-sized text use line-height between 1.5 - 2. big text go below 1.5.
+
+4 - Decrease letter spacing in headlines, if it looks unnatural (this will come from experience)
+
+5 - Experiment with all caps for short titles. Make them samll and bold and increase letter-spacing.
+
+6 - Don't Justify Text.
+
+7 - Don't center long text blocks. small blocks are fine.
+
+8 - Colors : 
+	. make the main color match your website personality.
+	. select main and accent and grey colors using multi tools
+	. on dark colored backgrounds, try to use tint of the background("lighter version") for text.
+	. the text (Not Heading) should usually not be completely black. lighten if up it looks heavy and uninviting.
+	. Don't make text to light for accessibality, use tool like coolors for check contrast between text and background colors, normal contrats at least 4.5:1 for normal text, 3:1 for large text (18px+).
+	. opencolors is best for color selection.
+	. coolors is best for color contrast.
+
+9 - images : Unsplash is best site for images, Squoosh compress the image to make it lower size.
+
+10 - icons : heroicons.com
+
+11 - shadows : 
+	. use shadows if make sense for web personality.
+	. use shadows in small doses : don't use shadows on every element.
+	. Go light on the shadow : don't make it too dark.
+	. use small shadows for smaller elements that should stand out(to draw attention).
+	. use medium-sized shadows for larger elements that should stand out a bit more.
+	. use large shadows for elements that should really float above the interface.
+	. Experiment with changing shadows on mouse interaction (hover, click, etc.).
+	. Experiment with glows (colored shadows).
+	
+12 - whitesapce: 
+	. start with a lot of whitespace.
+	. use whitespace to group elements.
+	. match other design choices. if you have a big text or big icons, use more whitespace.
+	. add a lots of whitespaces between sections.
+	. make every topic in section clear by using whitespace.
+
+13 - web personality:
+	1 - Serious/Elegant:
+		. Typrography: Serif fonts, light font weight, small body font size.
+		. Colors: Gold, pastel colors, black, dark blue or grey.
+		. Images : High quality, Big, usually hire a photographer to take pictures.
+		. Icons: usually don't use icons, but thin icons and lines may be used.
+		. Shadows: usually no shadows.
+		. border-radius: usually no border-radius.
+		. Layout : a creative layout and Experiment layout is quite common.
+		used for : Law firms, luxury brands, high-end products. 
+	
+	2 - minimalist/simple:
+		. Typrography: boxy/squared Sans-serif fonts, small body font size.
+		. Colors: usuall black or dark grey, on pure white background. usually just one color throughout the website.
+		. Images : few images, which can be used to add some color to the website. usually no illustrations, but if, then just black.
+		. Icons: usually no icons, but small simple icons may be used.
+		. Shadows: usually no shadows.
+		. border-radius: usually no border-radius.
+		. Layout : simple layout, a narrow one-column layout is quite common.
+		used for : Startups, tech companies, blogs.
+	
+	3 - Plain/Neutral:
+		. Typography: Sans-serif fonts, and text is usually small and doesn't have visual impact.
+		. Colors: Safe colors are employed, nothing too bright or too washed out. Blues and blacks are common.
+		. Images: Images are frequently used, but usually in a small format.
+		. Icons: Usually no icons, but simple icons may be used.
+		. Shadows: Usually no shadows.
+		. Border-radius: Usually no border-radius.
+		. Layout: Structured and condensed layout, with lots of boxes and rows.
+		Used for: Government websites, legal websites, financial institutions, and other sites where a serious, professional, and trustworthy appearance is desired. This style prioritizes clarity, organization, and functionality over visual appeal. It aims to present information in a straightforward manner without distractions, making it suitable for websites that require users to focus on the content and navigate easily through large amounts of information.
+	
+	4 - BOLD/CONFIDENT: 
+		. Typrography: boxy/squared Sans-serif fonts, big and bold font, especially headings. Upper case heading is common.
+		. Colors: usually multiple bright colors. Big colro blocks/sections are used dto draw attention.
+		. Images : Lots of big images are usually displayed
+		. Icons: usually no icons.
+		. Shadows: usually no shadows.
+		. border-radius: usually no border-radius.
+		. Layout : All kinds of layout, no particular tendencies.
+		used for : Startups, tech companies, blogs.
+	
+	5 - CALM/PEACEFUL:
+		. Typrography: soft serif fonts frequently used for headings, bit sans serif headings might be used too.
+		. Colors: Pastel/washed out colors: light oranges, blues, greens, Brown, and yellow.
+		. Images : Images and illustrations are usuall, matching calm color palette.
+		. Icons: Icon are frequent.
+		. Shadows: usually no shadows, but might be used sparingly.
+		. border-radius: some border-radius is usuall.
+		. Layout : all kinds of layout, no particular tendencies.
+		used for : Health care, all products that are focused on consumers well being.
+	
+	6 - Startup/UPBEAT :
+		. Typrography: meduim size heading, usually use one sans-serif font in whole design. Tendency for lighter text colors.
+		. colors: Blues, green and purples are widely used. Lots of light backgrounds (mainly gray), gradients are also common.
+		. Images : Images or illustrations are always used. 3d illustrations are modern. Sometimes pattern and shapes add visual details.
+		. Icons: Icons are frequent.
+		. Shadows: Sutble shadows are frequent. Glows are becoming modern.
+		. border-radius: border-radius is very common.
+		. Layout : Rows of cards aned z-patterns are usual, as well as animations.
+		used for : software Startup, and other modern-looking companies.
+	
+	7 - Fun/Playful:
+		. Typrography: Round and creative (e.g. handwritten) sans-serif fonts are frequent. Centered text is more common.
+		. Colors: Multiple colors are frequently used to design a colorful layout, all over backgrounds and text.
+		. Images : Images and illustrations and hand-draw and gemoetric shapes and patterns are all very frequently used.
+		. Icons: Icons are very frequent, many times in hand-drawn style.
+		. Shadows: situble shadows are quite common, but not always used.
+		. border-radius: border-radius is very common.
+		. Layout : All kinds of layout, no particular tendencies.
+
+ 14 - inspiration : 
+		.best websites to get inspiration:
+			1- land-book.com.
+			2- onepagelove.com in inspiration tap.
+			3- awwwards.com go to menu -> collections -> websites.
+			4- screenlane.com for individual components.
